@@ -17,4 +17,9 @@ h1{font-size:51px !important;}
 }
 .about-text{
 	color:#fff;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+i{
+	color: white;
 }
