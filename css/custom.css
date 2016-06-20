@@ -1,0 +1,20 @@
+.about-i{
+	letter-spacing: 1em;
+	margin-left: 1em;
+}
+h1{font-size:51px !important;}
+.new-icons{
+	width:45px;
+	height:45px;
+	border-radius: 25px;
+}
+#skills,
+#contact{
+	background-image: url(../img/textured_paper.png);
+}
+.bg-map{
+	margin:15px;
+}
+.about-text{
+	color:#fff;
+}
