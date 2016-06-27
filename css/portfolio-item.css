@@ -5,7 +5,7 @@
  */
 
 body {
-    padding-top: 39px;  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  padding-top: 39px;  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	background-image: url(../img/textured_paper.png);
 }
 .portfolio-item {
