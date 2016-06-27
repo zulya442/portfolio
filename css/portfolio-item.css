@@ -48,13 +48,18 @@ a:focus {
   margin-left: 11px;
 }
 h1,
-h2,
 h4,
 h5,
 h6 {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 2px;
   color: white;
+  text-shadow: 0 2px 0 rgba(70, 70, 70, 0.5);
+}
+h1 small{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 2px;
+  color: #CFCFCF;
 }
 h3{
   font-family: 'Cabin Sketch', cursive;

@@ -150,7 +150,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                    <a href="noble-savage.html" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/wp-woocommerce.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -195,7 +195,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="starbucks-brand.html" class="portfolio-box">
+                    <a href="malaysian-arch.html" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/malay-arch.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -210,7 +210,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="starbucks-brand.html" class="portfolio-box">
+                    <a href="allied-farm.html" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/allied-farm.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -329,11 +329,26 @@
 
     <aside class="bg-primary">
         <div class="bg-map text-center">
-            <div class="call-to-action">
+          
                 <h2>Where you can find us!</h2>
                 <hr class="light">
-                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:330px;width:100%;'><div id='gmap_canvas' style='height:360px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">                                 embed google maps                           </a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(-36.8484597,174.76333150000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-36.8484597,174.76333150000005)});infowindow = new google.maps.InfoWindow({content:'<strong>Headquarters</strong><br>Auckland, New Zealand<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-            </div>
+                <div id="map"></div>
+                    <script>
+                      function initMap() {
+                        var mapDiv = document.getElementById('map');
+                        var map = new google.maps.Map(mapDiv, {
+                            center: {lat: -36.8484597, lng: 174.76333150000005},
+                            zoom: 12
+
+
+                        });
+                      }
+                      
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQmRKSjhF_gMguNeaMZFGNOqSI-aRzaTE&callback=initMap">
+                    </script>
+            
         </div>
     </aside>
 
@@ -380,6 +395,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
 
 </body>
 
