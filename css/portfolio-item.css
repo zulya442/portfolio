@@ -54,6 +54,7 @@ h6 {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 2px;
   color: white;
+  padding-left: 1em;
   text-shadow: 0 2px 0 rgba(70, 70, 70, 0.5);
 }
 h1 small{
@@ -65,6 +66,9 @@ h3{
   font-family: 'Cabin Sketch', cursive;
   letter-spacing: 2px;
   color:white;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 34px;
 }
 p {
   font-size: 17px;
@@ -72,6 +76,7 @@ p {
   margin-bottom: 20px;
   font-family: 'Molengo', sans-serif;
   color: white;
+  padding-left:1.5em;
 }
 .new-icons{
 	width:55px;
