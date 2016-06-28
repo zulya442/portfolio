@@ -113,3 +113,6 @@ p {
    font-weight: 700;
    text-transform: uppercase;
  }
+ ul{
+  list-style-image: url('../img/greenbullet.png');
+ }
